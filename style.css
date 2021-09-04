@@ -51,43 +51,46 @@
 
 }
 .main-video-player{
+  border: 1px solid black;
     display: inline-block;
     justify-content: center;
-   
-    padding: 15px;  
+    height: 550px;
+    padding: 25px;  
 }
 .main-video-details a{
     text-decoration: none;
 }
-.video-player-channel-image{
-    border-radius: 100px;
-    
-}
+
 .main-video-player video{
     padding: 10px;
     border: solid black;
     transform: translateX(15px);
+   
 }
 .main-video-player h3{
     color: black;
     font: 1.3rem sans-serif;
-    font-weight: bolder;
-    transform: translateX(15px);
+    font-weight: 100;
+    transform: translateY(20px);
     
 }
+.main-video-metadata{
+    transform: translateY(20px);
+}
+.main-video-metadata span{
+    color: gray;
+    font-size: 0.8rem ;
+    font-weight: 100;
+}
+
+
 .videos-bar{
-    
-    
     height: 100%;
     width: 380px;
     transform: translate(930px,-500px);
-
 }
 .videos-section{
     display: flex;
-    
-
-
 }
 
 .video-title a{
@@ -98,7 +101,6 @@
     letter-spacing: var(--yt-link-letter-spacing, normal);
     color: black;
     
-
 }
 
 .video-channel-name{
